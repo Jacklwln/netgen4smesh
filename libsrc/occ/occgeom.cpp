@@ -26,9 +26,12 @@
 #endif
 
 #if OCC_VERSION_HEX < 0x070000
+// pass
+#elif OCC_VERSION_HEX < 0x070200
+#include "StlTransfer.hxx"
+#include "TopoDS_Iterator.hxx"
 #else
-   // #include "StlTransfer.hxx"
-   #include "TopoDS_Iterator.hxx"
+#include "TopoDS_Iterator.hxx"
 #endif
 
 namespace netgen
