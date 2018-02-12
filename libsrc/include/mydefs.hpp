@@ -7,7 +7,7 @@
 /* Date:   10. Mar. 98                                                    */
 /**************************************************************************/
 
-#define PACKAGE_VERSION "6.2"
+#define PACKAGE_VERSION "6.2.0"
 
 /*
   defines for graphics, testmodes, ...
