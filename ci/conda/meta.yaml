@@ -7,6 +7,8 @@ source:
 
 build:
   number: 0
+  features:
+    - vc14 [win]
 
 requirements:
   build:
